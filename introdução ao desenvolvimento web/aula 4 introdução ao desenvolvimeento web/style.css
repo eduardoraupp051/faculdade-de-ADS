@@ -1,0 +1,163 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.limpar {
+    clear: both;
+}
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #0300ca;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ff0095;
+}
+.pai {
+    width: 60%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.topo {
+    height: 80px;
+    background-color: rgb(36, 0, 243);
+    color: white;
+    text-align: center;
+}
+
+.topo span {
+    display: inline-block;
+    padding-top: 10px;
+    padding-right: 20px;
+    font-size: 17px;
+}
+
+.topo a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.perfil {
+    height: 200px;
+    border-bottom: 2px solid;
+}
+
+.dados {
+    float: left;
+    height: 100%;
+    width: 60%;
+    text-align: right;
+
+}
+
+.dados h2 {
+    padding-top: 70px;
+    font-size: 30px;
+}
+
+.dados p {
+    font-size: 24px;
+}
+
+.foto {
+    float: left;
+    height: 100%;
+    width: 40%;
+
+}
+
+.foto img {
+    width: 150px;
+    height: 150px;
+    margin-top: 25px;
+    margin-left: 100px;
+    border-radius: 50%;
+
+}
+
+.principal {
+    border-bottom: 2px solid;
+}
+
+.expert {
+    width: 70%;
+    float: left;
+    padding-left: 10px;
+
+   
+}
+
+.expert h2 {
+    text-decoration: underline;
+}
+
+.expert h3 {
+    padding-top: 10px;
+}
+
+.expert p {
+    text-align: justify;
+}
+
+.expert h3, .expert p{
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.tech {
+    width: 30%;
+    float: left;
+    padding-left: 10px;
+    border: 2px solid;
+}
+
+.tech h2 {
+    text-decoration: underline;
+    padding-bottom: 10px;
+    
+}
+
+.tech p{
+    float: left;
+    width: 50%;
+    clear: both;
+    padding-bottom: 5px;
+}
+.circulo{
+    float: left;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: blue;
+    margin-top: 3px;
+    margin-right: 5px;
+}
+.educação{
+    border-top: 2px solid;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.educação h2{
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.educação h3, .educação p{
+    padding-left: 10px;
+}
+.educação p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
