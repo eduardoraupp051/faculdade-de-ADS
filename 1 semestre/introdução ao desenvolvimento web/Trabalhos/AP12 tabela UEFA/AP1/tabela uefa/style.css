@@ -1,0 +1,112 @@
+*{ /* Abaixo estilzamos todos os elementos da página com (*) elemento raiz.*/
+    margin: 0; /*zerando todas as margens*/
+    font-weight: normal; /*Removendo os textos em negrito*/
+    font-size: 16px; /*Alterando o tamanho da fonte para 16px*/
+    font-family: Arial, Helvetica, sans-serif; /*Alterando o tipo da fonte*/
+}
+
+body {
+    background-color: rgb(240, 240, 240); /*Alterando a cor de fundo da página*/
+}
+
+.header { /*Estilizando a primeira div*/
+    height: 100px; /*Definindo a altura da caixa*/
+    color: rgb(255, 255, 255); /*Alterando o cor dos textos para branco*/
+    background-color: #162E58; /*Alterando a cor de fundo*/
+}
+
+.header h1 { /*Alterando o preenchimento do h1 para afastar das bordas*/
+    padding-top: 15px;
+    padding-left: 30px;
+}
+
+.header h2 { /*centralizando o h2 da header e colocando uma margem acima*/
+    text-align: center;
+    margin-top: 40px;
+}
+
+.grupos, .gols, .cartao { /*Estilizando a div grupos e a div gols*/
+    width: 60%; /*Definindo a largura para 60%*/
+    margin: 0 auto; /*Deixando a margem auto na laterais para centralizar*/
+    font-size: 14px; /*Alterando o tamanho da fonte*/
+    background-color: white; /*Alterando a cor de fundo*/
+}
+
+table{ /*estilizando as tabelas*/
+    width: 100%; /*Defindo a largura para 100% da div pai*/
+    border-collapse: collapse; /*Unindo as bordas*/
+    text-align: center; /*Centralizando os conteúdos*/
+    margin-top: 15px; /*Adicionando uma margem acima*/
+    padding: 5px; /*Adicionando um preenchimento para afastar das bordas*/
+}
+
+th, td {
+    border-top: 0.5px solid #70757a; /*Adicionando uma borda superior*/
+
+}
+
+th {
+    color: #70757a; /*Alterando a cor da fonte no cabeçalho*/
+    border-top: none; /*Removendo a borda do cabeçalho*/
+}
+
+.grupos h3 { /*Estilizando h3 - Títulos dos grupos*/
+    padding-top: 20px; /*Preenchimento acima*/
+    font-weight: bold; /*Colocando negrito*/
+}
+
+.left { /*Criando uma classe para alinhar texto a esquerda*/
+    text-align: left;
+}
+
+.img-clube { /*Criando uma classe para estilizar imagens dos clubes.*/
+    width: 24x;
+    height: 24px;
+}
+
+.bl-blue {/*Classe para colocar borda a esquerda nos primeiros colocados*/
+    border-left: 3px solid #4285f4;
+}
+
+.bl-orange { /*Classe para colocar borda a esquerda no terceiro colocado*/
+    border-left: 3px solid #fa7b17;
+}
+
+.w200 { /*Classe para alterar largura para 200px*/
+    width: 200px;
+}
+
+.img-jogador { /*Classe para estilizar a imagem dos jogadores*/
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+
+.w40 { /*Classe para alterar largura para 40px*/
+    width: 40px;
+}
+
+.gols img{ /*Adicionando uma margem a direita para afastar o nome da imagem.*/
+    margin-right: 10px;
+}
+
+.gols h3 { /*Estilizando o título da tabela gols*/
+    padding-top: 20px;
+    background-color: #162E58;
+    color: white;
+    font-size: 16px;
+}
+
+.cartao h3 { /*Estilizando o título da tabela cartoes*/
+    padding-top: 20px;
+    background-color: #162E58;
+    color: white;
+    font-size: 16px;
+}
+ 
+.cartao img{ /*Adicionando uma margem a direita para afastar o nome da imagem.*/
+    margin-right: 10px;
+}
+
+
+
