@@ -65,6 +65,15 @@ section h2 {
     width: 300px;
     border-radius: 10px;
 }
+
+.foto img:hover{
+    border: 2px solid white;
+    box-shadow: 0 0 5px white;
+}
+
+.projeto img:hover {
+    border: 1px solid white
+}
 .about{
     padding: 20px;
     display: flex;
@@ -76,6 +85,7 @@ section h2 {
 
 .projetos {
     display: flex;
+    text-align: center;
     
 }
 .projeto {
@@ -149,7 +159,15 @@ footer {
 }
 
 
+
 @media screen and (max-width: 800px) {
+
+    section{
+        max-width: 600px;
+        display: block;
+        
+    }
+
     header {
         display: flex;
         flex-direction: column;
@@ -159,6 +177,7 @@ footer {
         display: flex;
         flex-direction: column;
         text-align: center;
+        justify-content: center;
     }
     
     .projeto img {
@@ -174,25 +193,36 @@ footer {
         flex-direction: column;
         align-items: center;
     }
+
+    nav{
+        justify-content: space-around;
+        padding: 0;
+      
+    }
+
+    nav li{
+        margin: 10px;
+        display: list-item;
+    }
     
 
 }
 
 @media screen and (max-width: 450px) {
     body {
-        font-size: 0.5 rem; 
+        font-size: 80%; 
       }
 
+
     .text{
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       margin: auto;
+       padding: 20px;
+       text-align: justify;
     }
 
     footer {
-        text-align: center;
-        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 }
 
