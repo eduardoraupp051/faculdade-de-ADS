@@ -1,10 +1,9 @@
-lista = []
-tamanho = int(input("digite a quantidade da lista que você quer: "))
+num1 = input("Digite uma lista de números separados por espaços: ")
+numeros = [int(numero) for numero in num1.split()]
+quantidade_impares = 0
 
-while len(lista) < tamanho:
+for numero in numeros:
+    if numero % 2 == 1:
+        quantidade_impares += 1
 
-    num = int(input("digite um numero: "))
-    
-    if num % 2==1:
-        lista.append(num)
-    print("Os números impares são:", lista)
+print("A quantidade de números pares na lista é:", quantidade_impares)

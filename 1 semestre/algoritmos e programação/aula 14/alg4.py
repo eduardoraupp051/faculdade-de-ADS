@@ -1,13 +1,10 @@
-lista = []
-tamanho = int(input("digite a quantidade da lista que você quer: "))
-while len(lista) < tamanho:
 
-    num = int(input("digite um numero: "))
-    
-    if num % 2==0:
-        lista.append(num)
+num1 = input("Digite uma lista de números separados por espaços: ")
+numeros = [int(numero) for numero in num1.split()]
+quantidade_pares = 0
 
-    elif len(lista) == tamanho:
-        break
+for numero in numeros:
+    if numero % 2 == 0:
+        quantidade_pares += 1
 
-    print("Os números pares são:", lista)
+print("A quantidade de números pares na lista é:", quantidade_pares)
