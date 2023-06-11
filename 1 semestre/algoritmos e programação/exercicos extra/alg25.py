@@ -1,0 +1,1 @@
+num = int(input("digite um numero para verificar se ele ie feliz: "))

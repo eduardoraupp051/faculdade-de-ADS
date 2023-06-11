@@ -9,3 +9,7 @@ media = soma / 3
 if (media >= 6) {
     alert('voce passou');
 }
+
+else {
+    alert('voce rodou')
+}
