@@ -41,3 +41,10 @@ Console.WriteLine(soma);
 
 
 // Quais os valores padrões dos tipos de dados bool, char, int, double, float, decimal e string.
+// valorBool é false
+// valorChar é '\0'
+// valorInt é 0
+// valorDouble é 0.0
+// valorFloat é 0.0f
+// valorDecimal é 0.0m
+// valorString é null
