@@ -1,0 +1,15 @@
+sudo mkdir pastaAdmin(nome da pasta) - cria pastar no sistema, vai pedir senha do administrador
+cd (nome do diretorio) - navegar dentro da pasta
+ls -la - mostrar detalhado 
+cd .. - volta pro diretorio
+sudo chown (nome do usuario do computador) - altera permissão para mexer na pasta
+rm - remove arquivos de uma pasta
+rm-Rf - para remover diretorios
+touch (nome do arquivo e a predefinição da extensão EXE: txt)- para criar arquivos de texto por exemplo
+nano - para editar arquivos, ctrl+o pra salvar, ctrl+x para sair
+vim - para editar arquivos, para sair : wq pra salvar e sair
+mv - renomar, coloca o nome do arquivo antigo, e depois o nome novo
+cp -rf - para copiar o diretorio
+ln -s ../diretorio e referenciar de qualquer nome
+rm nome do diretorio - para apagar o atalho
+ssh ubuntu@ip - para acessar maquina virtual
